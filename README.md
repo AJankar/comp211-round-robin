@@ -23,8 +23,7 @@ You need a C compiler such as Clang or GCC.
 Compile and run with GCC.
 
 ```sh
-gcc -std=c11 -Wall -Wextra round_robin.c -o round_robin
-./round_robin
+gcc round_robin.c -o round_robin && ./round_robin
 ```
 
 ## Change the time slice
