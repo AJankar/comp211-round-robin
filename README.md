@@ -20,14 +20,12 @@ The simulation cycles through an array and skips finished processes. This reprod
 
 You need a C compiler such as Clang or GCC.
 
-Compile and run with Clang.
+Compile and run with GCC.
 
 ```sh
-clang -std=c11 -Wall -Wextra round_robin.c -o round_robin
+gcc -std=c11 -Wall -Wextra round_robin.c -o round_robin
 ./round_robin
 ```
-
-To use GCC, replace `clang` with `gcc`.
 
 ## Change the time slice
 
